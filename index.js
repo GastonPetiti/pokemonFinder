@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (!response.ok) {
         throw new Error(
-          "No se pudo obtener la información del Pokémon buscado."
+         cardContainer.textContent= "No se pudo obtener la información del Pokémon buscado."
         );
       }
 
