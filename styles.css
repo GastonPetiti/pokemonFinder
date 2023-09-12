@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8, 8, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 20vw;
+    background-color: rgb(255, 203, 167);
+    padding: 1rem;
+}
+
+#card-container{
+    min-height:10vh;
+    width: 100%;
+}
+
+#form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+#input{
+    height: 1.5rem;
+    width: 50%;
+}
+
+#btn{
+    height: 1.5rem;
+    width: 50%;
+}
