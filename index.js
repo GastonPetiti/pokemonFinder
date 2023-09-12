@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <h2>${pokemonData.name}</h2>
                 <p>Tipo:${pokemonData.types[0].type.name}</p>
                 <p>Altura: ${pokemonData.height / 10} metros</p>
-                <p>Peso:${pokemonData.weight} kilos</p>
+                <p>Peso:${pokemonData.weight / 10} kilos</p>
             </div>
             </div>
     `;
