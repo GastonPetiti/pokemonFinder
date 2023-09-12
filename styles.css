@@ -18,13 +18,33 @@ body{
     align-items: center;
     flex-direction: column;
     height: auto;
-    width: 20vw;
-    background-color: rgb(255, 203, 167);
+    max-width: 50%;
+    background-color: rgb(180, 167, 255);
+    border-radius: 15px;
     padding: 1rem;
 }
 
 #card-container{
     min-height:10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#img-container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+#pokemon-card-container{
+    width: 100%;
+}
+img{
+    height: 100%;
     width: 100%;
 }
 
@@ -44,6 +64,10 @@ body{
 }
 
 #btn{
-    height: 1.5rem;
-    width: 50%;
+    height: auto;
+    width: auto;
+    padding: 0.2rem;
+    background-color: rgb(69, 69, 228);
+    border-radius: 15px;
+    color: rgb(216, 149, 61);
 }
